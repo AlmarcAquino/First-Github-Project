@@ -8,7 +8,7 @@
     <title>FESW2 MiniProject</title>
   </head>
   <body>
-    <section>
+    <section> <!-- NAVBAR AND HEADER -->
       <nav class="navbar">
         <img src="./assets/FES.svg" class="logo" alt="FrontEndSimplified Logo" />
         <ul>
@@ -23,17 +23,17 @@
             <div class="home__description">
                 <h1>Best place to learn Frontend</h1>
                 <p class="subheader">Go from an absolute beginner to pro with a simplified process</p>
-                <button>Start now</button>
+                <button class="home__description--button">Start now</button>
             </div>
             <figure>
                 <img src="./assets/laptop.png" alt="laptop graphic" />
             </figure>
         </div>
       </header>
-    </section> <!-- End of Navbar and Header-->
+    </section> <!-- END OF NAVBAR AND HEADER -->
 
     <main>
-      <section id="about">
+      <section id="about"> <!-- ABOUT SECTION -->
         <h2>About</h2>
         <div class="row">
         <div class="section__description">
@@ -54,9 +54,9 @@
             </figure>
         </div>
         </div>
-      </section> <!-- End of About Section-->
+      </section> <!-- END OF ABOUT SECTION -->
 
-      <section id="discord">
+      <section id="discord"> <!-- DISCORD SECTION -->
         <h2>Discord</h2>
         <div class="row">
         <div class="section__description">
@@ -77,21 +77,23 @@
             </div>
         </div>
         </div>
-      </section> <!-- End of Discord Section-->
+      </section> <!-- END OF DISCORD SECTION -->
 
-      <section id="contact">
-        <h2>Contact</h2>
-        <form action="">
-            <label for="email">Email</label>
-            <input type="email" name="email" id="email" placeholder="example@example.com">
-            <label for="message">Message</label>
-            <textarea name="message" id="message" cols="30" rows="10" placeholder="Filler text"></textarea>
-            <input type="submit">
-        </form>
-      </section><!-- End of Contact Section-->
+      <section id="contact"> <!-- CONTACT SECTION -->
+        <div class="contact__wrapper">
+          <h2>Contact</h2>
+          <form action="">
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email" placeholder="example@example.com">
+              <label for="message">Message</label>
+              <textarea name="message" id="message" cols="30" rows="10" placeholder="Filler text"></textarea>
+              <input type="submit">
+          </form>
+        </div>
+      </section> <!-- END OF CONTACT SECTION -->
     </main>
 
-    <footer>
+    <footer> <!-- FOOTER -->
         <img class="footer__logo" src="./assets/FES.svg" alt="">
         <ul class="footer__nav">
             <li><a class="footer__link" href="#about">About</a></li>
@@ -100,6 +102,6 @@
             <li><a class="footer__link" href="#">Courses</a></li>
         </ul>
         <p>Copyright Frontend Simplified &copy;</p>
-    </footer>
+    </footer> <!-- END OF FOOTER -->
   </body>
 </html>

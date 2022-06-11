@@ -197,11 +197,98 @@ footer {
 /* Media Queries */
 /* Small phones, tablets, large smartphones */
 @media (max-width: 728px) {
+    /* GLOBAL */
     .row {
         flex-direction: column;
     }
-    
+    /* END OF GLOBAL */
+
+
+
+    /* NAVBAR */
+    nav ul {
+        display: none;
+    }
+    /* END OF NAVBAR */
+
+
+
+    /* HEADER */
     .home__description {
         margin-bottom: 16px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
+
+    .home__description--button {
+        max-width: 240px;
+    }
+    
+    h1 {
+        text-align: center;
+        font-size: 3.75rem;
+    }
+
+    .subheader {
+        text-align: center;
+        font-size: 1.75rem;
+    }
+    /* END OF HEADER */
+
+    
+
+    /* PAGE SECTIONS */
+    .section__description {
+        flex-direction: column;
+    }
+
+    .section__description--wrapper {
+        width: 100%;
+    }
+    /* END OF PAGE SECTIONS */
+
+
+
+    /* ABOUT */
+    .about__image--wrapper {
+        width: 100%;
+    }
+    /* END OF ABOUT */
+
+
+
+    /* DISCORD */
+    #discord .section__description {
+        flex-direction: column-reverse;
+    }
+    /* END OF DISCORD */
+
+
+
+    /* CONTACT */
+    #contact {
+        display: flex;
+        justify-content: center;
+    }
+    .contact__wrapper {
+        width: 80%;
+    }
+    /* END OF CONTACT */
+
+
+
+    /* FOOTER */
+    .footer__logo {
+        max-width: 80%;
+    }
+
+    .footer__nav {
+        margin-top: 10px;
+    }
+
+    .footer__link {
+        font-size: 0.9rem;
+    }
+    /* END OF FOOTER */
 }
